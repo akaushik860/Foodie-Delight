@@ -1,10 +1,26 @@
-# Getting Started with Create React App
+# Restaurant Management Web App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A web application that allows users to view, add, edit, delete, and search for restaurants. The app is built using React and includes responsive design, form validation, and simulated backend functionality.
 
-## Available Scripts
+## Features
 
-In the project directory, you can run:
+- View a list of restaurants
+- Add new restaurants
+- Edit existing restaurants
+- Delete restaurants
+- Search for restaurants by name
+- Responsive design
+- Form validation
+- Simulated backend functionality
+
+
+## Installation
+
+1) Install the necessary node modules
+
+### `npm install`
+
+2) In the project directory, you can run:
 
 ### `npm start`
 
@@ -14,57 +30,68 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
 
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
 ### `npm run build`
 
 Builds the app for production to the `build` folder.\
 It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Time Tracking
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Frontend Functionality
 
-### `npm run eject`
+**Description**: Implementing core features such as displaying the list of restaurants, adding new restaurants, editing existing restaurants, deleting restaurants, and the search functionality.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- **Tasks**:
+  - Setting up the initial React project.
+  - Creating components for the restaurant list, form, and search bar.
+  - Implementing state management for restaurant data.
+  - Handling CRUD operations (Create, Read, Update, Delete).
+  - Implementing the search functionality.
+- **Estimated Time**: 2 hours
+- **Actual Time**: 2.5 hours
+- **Comments**: The actual time was slightly longer due to handling some edge cases and ensuring smooth state transitions.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Frontend Presentational Aspects (Styling, DOM, etc)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+**Description**: Styling the application to be visually appealing and ensuring it is responsive across different devices.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+- **Tasks**:
+  - Writing CSS/SCSS for the layout and components.
+  - Implementing responsive design using media queries and flexible layouts.
+  - Ensuring cross-browser compatibility.
+- **Estimated Time**: 2 hours
+- **Actual Time**: 2.5 hours
+- **Comments**: More time was spent on fine-tuning the responsive design and ensuring consistency across different screen sizes.
 
-## Learn More
+### Required Validations
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+**Description**: Adding validation logic to the form for adding and editing restaurants.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- **Tasks**:
+  - Implementing client-side validation rules.
+  - Displaying appropriate error messages for invalid inputs.
+  - Ensuring validation logic is consistent across all form operations.
+- **Estimated Time**: 1.5 hours
+- **Actual Time**: 1.5 hours
 
-### Code Splitting
+### Unit Test Coverage
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+**Description**: Writing unit tests to cover the core functionality and ensure the application works as expected.
 
-### Analyzing the Bundle Size
+- **Tasks**:
+  - Setting up a testing framework (e.g. React Testing Library).
+  - Writing tests for components, state management, and form validation.
+  - Ensuring a high level of test coverage.
+- **Estimated Time**: 1 hours
+- **Actual Time**: 1 hours
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## Summary
 
-### Making a Progressive Web App
+- **Frontend Functionality**: 2.5 hours
+- **Frontend Presentational Aspects**: 2.5 hours
+- **Required Validations**: 1.5 hours
+- **Unit Test Coverage**: 1 hours
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+### Total Time
 
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- **Actual Total Time**: 7.5 hours
