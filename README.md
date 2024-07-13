@@ -1,3 +1,5 @@
+## Note - Completed this assignemnt within 1 day while handling office project work side by side. So there may be some area of improvments which I mentioned at the end of this file
+
 # Restaurant Management Web App
 
 A web application that allows users to view, add, edit, delete, and search for restaurants. The app is built using React and includes responsive design, form validation, and simulated backend functionality.
