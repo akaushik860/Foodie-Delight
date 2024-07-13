@@ -95,3 +95,15 @@ It correctly bundles React in production mode and optimizes the build for the be
 ### Total Time
 
 - **Actual Total Time**: 7.5 hours
+
+## Notes
+
+- **Mocked Backend APIs**: As this is a frontend assignment, I have not implemented actual backend APIs. Instead, I have mocked the backend functionality to simulate API responses.
+- **Areas for Improvement**:
+  - **Optimization**: Optimize the state management and rendering process for better performance.
+  - **Lazy Loading**: Implement lazy loading of components to improve initial load time.
+  - **Pagination**: Add pagination to handle a large number of restaurant entries efficiently.
+  - **Advanced Search**: Enhance the search functionality to include filters based on different restaurant attributes.
+  - **Improved Error Handling**: Implement better error handling for form validation and other operations.
+  - **Testing**: Increase test coverage to include integration and end-to-end tests.
+
